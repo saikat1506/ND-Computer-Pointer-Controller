@@ -1,5 +1,19 @@
 # Computer Pointer Controller
 In this project, you will use a gaze detection model to control the mouse pointer of your computer. You will be using the Gaze Estimation model to estimate the gaze of the user's eyes and change the mouse pointer position accordingly. This project will demonstrate your ability to run multiple models in the same machine and coordinate the flow of data between those models
+This is the last Project in order to obtain the Intel Edge AI Nanodegree from Udacity, the objective is to create an application capable of moving the computer pointer using only the movement from the head and eyes.
+
+Watch the video
+
+
+This involves many considerations:
+
+We need several models working together, each one covering a needed functionality. For example, a face detection model is used to feed a face landmarks model.
+We need to control the application logic to create an optimal flow, as the models involved could use a lot of resources.
+Regarding the models themselves, it could be interesting to check if we could use different precisions models in order to gain more performance.
+In general, the flow looks like this:
+
+
+
 
 # Project Set Up and Installation
 TODO: Explain the setup procedures to run your project. For instance, this can include your project directory structure, the models you need to download and where to place them etc. Also include details about how to install the dependencies your project requires.
