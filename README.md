@@ -13,8 +13,6 @@ To get these inputs, you will have to use three other OpenVino models:
 * Facial Landmarks Detection
 
 
-[![Watch the video](https://img.youtube.com/vi/pDGPJJVS2jE&t=15s/hqdefault.jpg)](https://www.youtube.com/watch?v=pDGPJJVS2jE&t=15s)
-
  This involves many considerations:
 
 * We need several models working together, each one covering a needed functionality. For example, a face detection model is used to feed a face landmarks model.
